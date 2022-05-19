@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+	<listener class-name="com.bbc.Utilities.Reporting"></listener>
+</listeners>
+  <test  name="Test">
+    <classes>
+      <class name="com.bbc.testcase.BaseClass"/>
+      <class name="com.bbc.testcase.TC_search_001"/>
+		<class name="com.bbc.testcase.TC_email_002"/>
+		<class name="com.bbc.testcase.TC_items_003"/>
+		<class name="com.bbc.testcase.TC_about_004"/>
+		<class name="com.bbc.testcase.TC_aboutele_005"/>
+		<class name="com.bbc.testcase.TC_store_006"/>
+		<class name="com.bbc.testcase.TC_storeele_007"/>
+		<class name="com.bbc.testcase.TC_contact_008"/>
+		<class name="com.bbc.testcase.TC_consearch_009"/>
+		<class name="com.bbc.testcase.TC_searchdata_010"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
